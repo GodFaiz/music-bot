@@ -1,0 +1,7 @@
+{
+    "prefix" : "!",
+    "token" : "DISCORD APP TOKEN",
+    "streamURL" : "http://3.stream.laut.fm/smash",
+    "guildID" : "GUILD ID FOR MUSIC",
+    "channelID" : "VOICE CHANNEL ID FOR MUSIC"
+}
