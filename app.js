@@ -32,7 +32,7 @@ client.on('message', message => {
             })
             break;
         case 'musicreboot':
-            await message.channel.send(`R. E. B. O. O. T.`);
+            message.channel.send(`R. E. B. O. O. T.`);
             console.log("Rebooting...")
             process.exit(1);
             break;
