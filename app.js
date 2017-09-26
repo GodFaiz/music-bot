@@ -31,7 +31,7 @@ client.on('message', message => {
                 message.channel.send(`${current_song.artist.name} **-** ${current_song.title}`);
             })
             break;
-        case 'reboot':
+        case 'musicreboot':
             await message.channel.send(`R. E. B. O. O. T.`);
             console.log("Rebooting...")
             process.exit(1);
