@@ -16,12 +16,7 @@ client.on('message', message => {
     let cmd = message.content.substring(config.prefix.length)
     switch (cmd.toLowerCase()) {
         case 'help':
-            request.get({
-                url: 'http://api.laut.fm/station/smash/current_song'
-            }, function(error, response, body) {
-                current_song = JSON.parse(body.toString());
                 message.channel.send(`Meddl! Ich spiel **SmashFM**. \nWas ich sonts noch kann? - Joa nichts.`);
-            })
             break;
         case 'playing': 
             request.get({
